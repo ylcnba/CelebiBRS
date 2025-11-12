@@ -22,8 +22,14 @@ export const OverviewPage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/data/5year_summary.json')
-      .then(res => res.json())
+    const basePath = import.meta.env.BASE_URL || '/';
+    fetch(`${basePath}data/5year_summary.json`)
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then(data => {
         setFiveYearData(data);
         setLoading(false);

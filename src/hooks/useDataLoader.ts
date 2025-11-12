@@ -14,9 +14,11 @@ export const useDataLoader = () => {
         setLoading(true);
         setError(null);
 
+        const basePath = import.meta.env.BASE_URL || '/';
+
         // Try to load from CSV first
         try {
-          const csvData = await loadDataFromCSV('/data/data.csv');
+          const csvData = await loadDataFromCSV(`${basePath}data/data.csv`);
           setData(csvData);
           setLoading(false);
           return;
@@ -25,7 +27,7 @@ export const useDataLoader = () => {
         }
 
         // Try Excel files
-        const excelFiles = ['/data/data.xlsx', '/data/data.xls'];
+        const excelFiles = [`${basePath}data/data.xlsx`, `${basePath}data/data.xls`];
         for (const filePath of excelFiles) {
           try {
             const excelData = await loadDataFromExcel(filePath);
