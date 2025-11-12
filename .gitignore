@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Large CSV data files (exclude from git)
+public/data/ADB.csv
+public/data/BJV.csv
+public/data/ESB.csv
+public/data/COV.csv
+public/data/*_processed.csv
+public/data/*_celebi_filtered.csv
+
+# Keep these files:
+# !public/data/data.csv
+# !public/data/5year_summary.json
+# !public/data/celebi_mapping.json
+# !public/data/CelebiSites.xlsx
