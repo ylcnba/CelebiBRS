@@ -1,6 +1,6 @@
 import Papa from 'papaparse';
 import * as XLSX from 'xlsx';
-import { DashboardData, Airport, Airline } from '../types';
+import { DashboardData, Airport } from '../types';
 
 export const loadDataFromCSV = async (filePath: string): Promise<DashboardData> => {
   const response = await fetch(filePath);
@@ -18,7 +18,7 @@ export const loadDataFromCSV = async (filePath: string): Promise<DashboardData> 
           reject(error);
         }
       },
-      error: (error) => reject(error),
+      error: (error: Error) => reject(error),
     });
   });
 };

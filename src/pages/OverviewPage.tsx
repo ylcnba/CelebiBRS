@@ -40,10 +40,6 @@ export const OverviewPage = () => {
       });
   }, []);
 
-  const formatNumber = (num: number) => {
-    return num.toLocaleString('en-US');
-  };
-
   if (loading || !fiveYearData) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">

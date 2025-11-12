@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { DashboardData } from '../types';
-import { loadDataFromCSV, loadDataFromExcel, detectFileType } from '../utils/dataLoader';
+import { loadDataFromCSV, loadDataFromExcel } from '../utils/dataLoader';
 import { dashboardData as mockData } from '../data/mockData';
 
 export const useDataLoader = () => {
