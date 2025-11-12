@@ -26,14 +26,14 @@ export const DetailPage = () => {
       <Header />
       
       {error && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+        <div className="w-full px-6 lg:px-12 pt-4">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
             <p className="text-yellow-700">{error}</p>
           </div>
         </div>
       )}
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="w-full px-6 lg:px-12 py-12">
         {/* Page Title */}
         <div className="text-center mb-16">
           <h1 className="text-6xl md:text-7xl font-extrabold text-gray-900 mb-6 bg-gradient-to-r from-tav-blue to-tav-orange bg-clip-text text-transparent">
