@@ -1,0 +1,458 @@
+{
+  "ESB": {
+    "code": "ESB",
+    "name": "Ankara Esenboğa Havalimanı",
+    "airlines": [
+      {
+        "code": "8Q",
+        "name": "Onur Air"
+      },
+      {
+        "code": "8U",
+        "name": "Afriqiyah Airways"
+      },
+      {
+        "code": "AAN",
+        "name": "Al Ain International Airlines"
+      },
+      {
+        "code": "BRJ",
+        "name": "Braathens Regional Airways (ICAO)"
+      },
+      {
+        "code": "DE",
+        "name": "Condor"
+      },
+      {
+        "code": "GTC",
+        "name": "GTC Airlines"
+      },
+      {
+        "code": "Z4",
+        "name": "Zoom Airlines"
+      },
+      {
+        "code": "IA",
+        "name": "Iraqi Airways"
+      },
+      {
+        "code": "IP",
+        "name": "Apsara International Air"
+      },
+      {
+        "code": "J2",
+        "name": "Azerbaijan Airlines"
+      },
+      {
+        "code": "JN",
+        "name": "Livingston"
+      },
+      {
+        "code": "KK",
+        "name": "AtlasGlobal"
+      },
+      {
+        "code": "LH",
+        "name": "Lufthansa"
+      },
+      {
+        "code": "LMZ",
+        "name": "LAM Mozambique Airlines (ICAO)"
+      },
+      {
+        "code": "M9",
+        "name": "Motor Sich Airlines"
+      },
+      {
+        "code": "NG",
+        "name": "Lauda Air"
+      },
+      {
+        "code": "QW",
+        "name": "Qingdao Airlines"
+      },
+      {
+        "code": "SV",
+        "name": "Saudia"
+      },
+      {
+        "code": "TI",
+        "name": "Tailwind Airlines"
+      },
+      {
+        "code": "UG",
+        "name": "Tuninter"
+      },
+      {
+        "code": "X3",
+        "name": "TUI fly Deutschland"
+      },
+      {
+        "code": "BST",
+        "name": "Best Air"
+      },
+      {
+        "code": "UD",
+        "name": "Hex'Air"
+      },
+      {
+        "code": "5W",
+        "name": "Wizz Air Abu Dhabi"
+      },
+      {
+        "code": "KC",
+        "name": "Air Astana"
+      },
+      {
+        "code": "MGH",
+        "name": "Meghna Aviation"
+      },
+      {
+        "code": "IS",
+        "name": "AIS Airlines"
+      },
+      {
+        "code": "HY",
+        "name": "Uzbekistan Airways"
+      },
+      {
+        "code": "XY",
+        "name": "Flynas"
+      },
+      {
+        "code": "FAD",
+        "name": "Flyadeal (ICAO)"
+      }
+    ]
+  },
+  "ADB": {
+    "code": "ADB",
+    "name": "Adnan Menderes Havalimanı",
+    "airlines": [
+      {
+        "code": "3G",
+        "name": "Gambia Bird"
+      },
+      {
+        "code": "3Z",
+        "name": "Travel Service Polska"
+      },
+      {
+        "code": "6D",
+        "name": "Pelita Air"
+      },
+      {
+        "code": "8Q",
+        "name": "Onur Air"
+      },
+      {
+        "code": "8U",
+        "name": "Afriqiyah Airways"
+      },
+      {
+        "code": "A3",
+        "name": "Aegean Airlines"
+      },
+      {
+        "code": "AAN",
+        "name": "Al Ain International Airlines"
+      },
+      {
+        "code": "AB",
+        "name": "Air Berlin"
+      },
+      {
+        "code": "AL",
+        "name": "Air Leisure"
+      },
+      {
+        "code": "BST",
+        "name": "Best Air"
+      },
+      {
+        "code": "DE",
+        "name": "Condor"
+      },
+      {
+        "code": "DP",
+        "name": "Pobeda"
+      },
+      {
+        "code": "EP",
+        "name": "Iran Aseman Airlines"
+      },
+      {
+        "code": "G9",
+        "name": "Air Arabia"
+      },
+      {
+        "code": "GTC",
+        "name": "GTC Airlines"
+      },
+      {
+        "code": "HCC",
+        "name": "Heli Charter"
+      },
+      {
+        "code": "HF",
+        "name": "Air Côte d'Ivoire"
+      },
+      {
+        "code": "HQ",
+        "name": "Harmony Airways"
+      },
+      {
+        "code": "J2",
+        "name": "Azerbaijan Airlines"
+      },
+      {
+        "code": "KK",
+        "name": "AtlasGlobal"
+      },
+      {
+        "code": "LG",
+        "name": "Luxair"
+      },
+      {
+        "code": "LH",
+        "name": "Lufthansa"
+      },
+      {
+        "code": "LX",
+        "name": "Swiss International Air Lines"
+      },
+      {
+        "code": "MP",
+        "name": "Martinair"
+      },
+      {
+        "code": "MT",
+        "name": "Thomas Cook Airlines"
+      },
+      {
+        "code": "NN",
+        "name": "VIM Airlines"
+      },
+      {
+        "code": "OR",
+        "name": "TUI fly Netherlands"
+      },
+      {
+        "code": "OU",
+        "name": "Croatia Airlines"
+      },
+      {
+        "code": "QS",
+        "name": "SmartWings"
+      },
+      {
+        "code": "QU",
+        "name": "East African Safari Air"
+      },
+      {
+        "code": "QW",
+        "name": "Qingdao Airlines"
+      },
+      {
+        "code": "RV",
+        "name": "Air Canada Rouge"
+      },
+      {
+        "code": "SE",
+        "name": "XL Airways France"
+      },
+      {
+        "code": "ST",
+        "name": "Germania"
+      },
+      {
+        "code": "SV",
+        "name": "Saudia"
+      },
+      {
+        "code": "TB",
+        "name": "TUI fly Belgium"
+      },
+      {
+        "code": "X3",
+        "name": "TUI fly Deutschland"
+      },
+      {
+        "code": "XY",
+        "name": "Flynas"
+      },
+      {
+        "code": "Y9",
+        "name": "Kish Air"
+      },
+      {
+        "code": "YAP",
+        "name": "Yap Airways"
+      },
+      {
+        "code": "ZT",
+        "name": "Titan Airways"
+      },
+      {
+        "code": "BUR",
+        "name": "Buraq Air (ICAO)"
+      },
+      {
+        "code": "BY",
+        "name": "TUI Airways"
+      },
+      {
+        "code": "KU",
+        "name": "Kuwait Airways"
+      },
+      {
+        "code": "TZ",
+        "name": "TZ"
+      },
+      {
+        "code": "TOM",
+        "name": "TUI Airways (ICAO)"
+      }
+    ]
+  },
+  "BJV": {
+    "code": "BJV",
+    "name": "Milas-Bodrum Havalimanı",
+    "airlines": [
+      {
+        "code": "8Q",
+        "name": "Onur Air"
+      },
+      {
+        "code": "QU",
+        "name": "East African Safari Air"
+      },
+      {
+        "code": "ZF",
+        "name": "Azur Air"
+      },
+      {
+        "code": "LH",
+        "name": "Lufthansa"
+      },
+      {
+        "code": "KC",
+        "name": "Air Astana"
+      },
+      {
+        "code": "TB",
+        "name": "TUI fly Belgium"
+      },
+      {
+        "code": "SN",
+        "name": "Brussels Airlines"
+      },
+      {
+        "code": "KU",
+        "name": "Kuwait Airways"
+      },
+      {
+        "code": "BY",
+        "name": "TUI Airways"
+      },
+      {
+        "code": "DK",
+        "name": "Sunclass Airlines"
+      },
+      {
+        "code": "OR",
+        "name": "TUI fly Netherlands"
+      },
+      {
+        "code": "J2",
+        "name": "Azerbaijan Airlines"
+      },
+      {
+        "code": "G9",
+        "name": "Air Arabia"
+      },
+      {
+        "code": "YC",
+        "name": "Yamal Airlines"
+      },
+      {
+        "code": "HY",
+        "name": "Uzbekistan Airways"
+      },
+      {
+        "code": "DV",
+        "name": "SCAT Airlines"
+      },
+      {
+        "code": "A2",
+        "name": "Astra Airlines"
+      },
+      {
+        "code": "AHY",
+        "name": "Azerbaijan Airlines (ICAO)"
+      },
+      {
+        "code": "7R",
+        "name": "RusLine"
+      },
+      {
+        "code": "4Y",
+        "name": "Discover Airlines"
+      },
+      {
+        "code": "XY",
+        "name": "Flynas"
+      },
+      {
+        "code": "TOM",
+        "name": "TUI Airways (ICAO)"
+      },
+      {
+        "code": "AT",
+        "name": "Royal Air Maroc"
+      },
+      {
+        "code": "F3",
+        "name": "Flyadeal"
+      },
+      {
+        "code": "MGH",
+        "name": "Meghna Aviation"
+      },
+      {
+        "code": "SU",
+        "name": "Aeroflot"
+      },
+      {
+        "code": "4M",
+        "name": "Mavi Gok Airlines"
+      }
+    ]
+  },
+  "COV": {
+    "code": "COV",
+    "name": "Çukurova Havalimanı",
+    "airlines": [
+      {
+        "code": "PC",
+        "name": "Pegasus Airlines"
+      },
+      {
+        "code": "XC",
+        "name": "Corendon Airlines"
+      },
+      {
+        "code": "F3",
+        "name": "Flyadeal"
+      },
+      {
+        "code": "4M",
+        "name": "Mavi Gok Airlines"
+      },
+      {
+        "code": "J2",
+        "name": "Azerbaijan Airlines"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+export const Header = () => {
+  const basePath = import.meta.env.BASE_URL || '/';
+  const tavLogo = `${basePath}tav-logo.png`;
+  const celebiLogo = `${basePath}celebi-logo.png`;
+
+  return (
+    <header className="bg-white shadow-md">
+      <div className="w-full px-6 lg:px-12 py-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-6">
+            <img 
+              src={tavLogo} 
+              alt="TAV Technologies" 
+              className="h-12 object-contain"
+            />
+            <div className="h-12 w-px bg-gray-300"></div>
+            <img 
+              src={celebiLogo} 
+              alt="Çelebi Holding" 
+              className="h-12 object-contain"
+            />
+          </div>
+          <div className="text-right">
+            <h1 className="text-2xl font-bold text-gray-800">TAV BRS Dashboard</h1>
+            <p className="text-sm text-gray-600">Çelebi Holding Performance Report</p>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
