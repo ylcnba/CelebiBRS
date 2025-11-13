@@ -58,7 +58,7 @@ export const OverviewPage = () => {
       <main className="w-full px-6 lg:px-12 py-12">
         {/* Page Title */}
         <div className="text-center mb-16">
-          <h1 className="text-6xl md:text-7xl font-extrabold text-gray-900 mb-6 bg-gradient-to-r from-tav-blue to-tav-orange bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-7xl font-extrabold text-gray-900 mb-8 bg-gradient-to-r from-tav-blue to-tav-orange bg-clip-text text-transparent leading-[1.1] block pb-2">
             TAV BRS Usage Report
           </h1>
           <p className="text-2xl text-gray-600 font-medium">
